@@ -55,5 +55,9 @@ to (ROADMAP.md)[./ROADMAP.md].
   implementation
 - Maybe each guest should be handled in a separate thread/process as an
   isolation boundary for extra security?
+- Guests connecting to a host with a large window size should be able to
+  renegotiate a smaller window size at allow for an acceptable guest viewing
+  experience.
+
 
 
